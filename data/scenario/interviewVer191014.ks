@@ -1,0 +1,22 @@
+[_tb_system_call storage=system/_interviewVer191014.ks]
+
+*epilogue
+
+[mask_off  time="1000"  effect="fadeOut"  ]
+[tb_ptext_hide  time="1000"  ]
+[tb_image_hide  time="1000"  ]
+[tb_hide_message_window  ]
+[stopbgm  time="1000"  ]
+[stopse  time="1000"  buf="0"  ]
+[stop_bgmovie  time="1000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[delay  speed="30"  ]
+[bg  time="500"  method="crossfade"  storage="capsule-black.png"  ]
+[tb_ptext_show  x="24"  y="190"  size="31"  color="0xffffff"  time="2000"  text="本ゲームに関するご意見・ご感想は以下のメニューよりよろしくお願いいたします。"  anim="true"  face="sans-serif,'メイリオ'"  edge="undefined"  shadow="undefined"  fadeout="false"  wait="true"  in_effect="fadeIn"  out_effect="fadeOut"  ]
+[glink  color="white"  storage="weblink.ks"  size="20"  target="*inquiry"  text="フォームでお問い合わせ"  x="90"  y="370"  width="360"  height=""  _clickable_img=""  ]
+[glink  color="white"  storage="weblink.ks"  size="20"  text="掲示板に意見・感想を書き込む"  target="*marketing"  y="420"  x="90"  width="360"  ]
+[glink  color="white"  storage="weblink.ks"  size="20"  text="Discardに投稿する"  target="*story"  y="470"  x="90"  width="360"  ]
+[glink  color="white"  storage="title_screen.ks"  size="20"  text="もう一度遊ぶ"  target="*title"  y="520"  x="90"  width="360"  ]
+[glink  color="white"  storage="scene99_endorollVer191011.ks"  size="20"  text="エンドロールを見る"  target="*endroll"  x="90"  y="570"  width="360"  ]
+[s  ]
+[tb_ptext_hide  time="1000"  ]
